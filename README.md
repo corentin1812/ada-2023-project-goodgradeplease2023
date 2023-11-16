@@ -19,6 +19,12 @@ In the wake of the COVID-19 pandemic, our project unveils a captivating narrativ
 
 To enrich our insights and provide a nuanced understanding of the observed trends, we have judiciously incorporated additional datasets. These supplementary data sources are instrumental in elucidating the intricate relationship between external factors, such as the global pandemic, and the ebb and flow of interest in different video game titles. These include all the frequency at which Wikipedia pages for each video game in every language was accessed, especially during the COVID-19 pandemic.
 
+### Methods:
+In order to conduct a cross-country video games oriented analysis, we need to evaluate especially two things and compare them: the lockdown intensity and the attention shift.
+To group the countries depending on the lockdown intensity, we can compute the mobility decrease average during the lockdown period or look at the profil of the curves. For the second option, we need to first smooth the curve because all of them are very noisy because of the difference between weeke and week-end. In the end, we are able to separate the countries in 3 groups: very restrictice, restrictive and unrestrictive lockdown.
+To get the data related to the atttention shift we coded an API...
+Also, a causal analysis is performed to know and detect if...
+
 ### Internal milestones:
 - Choosing what video games are a good choice to represent a genre
 - Choosing what languages are good due to them being mostly spoken in only one country
